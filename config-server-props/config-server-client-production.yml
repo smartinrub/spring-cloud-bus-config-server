@@ -1,6 +1,0 @@
-mysql:
-  properties:
-    url:
-    username: "produser"
-    password:
-    

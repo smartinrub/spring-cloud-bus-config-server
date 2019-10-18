@@ -1,5 +1,0 @@
-mysql:
-  properties:
-    url:
-    username: "devuser2"
-    password:
