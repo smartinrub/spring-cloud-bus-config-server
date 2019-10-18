@@ -1,10 +1,10 @@
 server:
-  port: 8889
-
+  port: 8888
 spring:
   cloud:
     config:
       server:
         git:
-          uri: "https://github.com/smartinrub/spring-centralized-configuration.git"
+          uri: "/Users/smartinrubio/workspace/sergio/config-server-props"
           refresh-rate: 5 # the config server will fetch updated configuration every 5 seconds
+

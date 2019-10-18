@@ -1,6 +1,12 @@
 spring:
   application:
-    name: config-client
+    name: config-server-client
   cloud:
     config:
-      uri: "http://localhost:8889"
+      uri: "http://localhost:8888"
+      profile: development
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
