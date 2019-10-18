@@ -1,0 +1,3 @@
+[submodule "config-server-props"]
+	path = config-server-props
+	url = ./config-server-props

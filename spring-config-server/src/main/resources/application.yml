@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: "/Users/smartinrubio/workspace/sergio/config-server-props"
+          uri: "${HOME}/workspace/sergio/config-server-props"
           refresh-rate: 5 # the config server will fetch updated configuration every 5 seconds
 

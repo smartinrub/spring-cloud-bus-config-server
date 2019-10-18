@@ -1,0 +1,6 @@
+mysql:
+  properties:
+    url:
+    username: "guest"
+    password:
+    
