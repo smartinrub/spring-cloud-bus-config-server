@@ -1,0 +1,4 @@
+mysql:
+  properties:
+    username: produser
+
