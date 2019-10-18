@@ -1,5 +1,5 @@
 mysql:
   properties:
     url:
-    username: "devuser2"
-    password:
+    username: devuser
+    password: '{cipher}AQBnO2rm+hYxB3cpkVQcNDrMByCLjKig5sZYaQ8zgv7TEK1A23pQjGC7tVUHwJ45uTHH0aa4/3OL5YLK7sUJd8M+JiI55y5VzJ7473CBr6sG75picWe1yVwwlYGUchSnTbscZCvq5AZQRUk2iwd96la1OAmGdSywOYnRxI1f+48WtLgFu2Xe7YLrUZ3b3a3M8N/3Z44i+CMkjS9W0xLMtzghIQ+Fs0hZoRAlFcNHr7QRkOUPmrdkwl4oLZX204AialrbxowTTqtjnrNtF7pQFXbGbUGbJO9trbCwBEFxoIRrMrwnIDneAFLy4OT5hOTQ93Rg07Hs/h34Qn6gJhgJNu0Chc4VJS8uK8GKGg1Lqif88Mp5IIzWcrfUPsGbC592qwY'

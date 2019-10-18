@@ -1,6 +1,6 @@
 mysql:
   properties:
     url:
-    username: "produser"
-    password:
+    username: produser
+    password: '{cipher}'
     
