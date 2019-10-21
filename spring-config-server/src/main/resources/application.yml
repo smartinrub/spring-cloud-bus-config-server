@@ -1,4 +1,3 @@
-# documentation: https://cloud.spring.io/spring-cloud-config/reference/html/
 server:
   port: 8888
 spring:
@@ -6,21 +5,4 @@ spring:
     config:
       server:
         git:
-          # The HTTP service has resources in the following form:
-          # /{application}/{profile}[/{label}]
-          # /{application}-{profile}.yml
-          # /{label}/{application}-{profile}.yml
-          # /{application}-{profile}.properties
-          # /{label}/{application}-{profile}.properties
-          # where:
-          # {application}, which maps to spring.application.name on the client side.
-          # {profile}, which maps to spring.profiles.active on the client (comma-separated list).
-          # {label}, which is a server side feature labelling a "versioned" set of config files.
-          # If the git branch or tag name contains a slash (/), then the label in the HTTP URL
-          # should instead be specified with the special string (_)
-          uri: https://github.com/smartinrub/spring-centralized-configuration.git # url to git repository where
-          # the property files are
-          refresh-rate: 5 # the config server will fetch updated configuration every 5 seconds
-          timeout: 4
-        encrypt:
-          enabled: false
+          uri: https://github.com/smartinrub/spring-centralized-configuration.git
