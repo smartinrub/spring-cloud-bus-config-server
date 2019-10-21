@@ -4,7 +4,7 @@
 # Encrypt: curl localhost:8888/encrypt -d mysecret
 encrypt:
   key-store:
-    location: classpath:server.jks
+    # Asymmetric key
+    location: classpath:keys/server.jks
     password: password123
-    secret: password123
     alias: sergioKeyStore

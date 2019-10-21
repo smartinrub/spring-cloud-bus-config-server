@@ -5,8 +5,8 @@ spring:
     config:
       uri: http://localhost:8888
       profile: development
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
+#encrypt:
+#  key-store:
+#    location: classpath:keys/server.jks
+#    password: password123
+#    alias: sergioKeyStore

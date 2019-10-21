@@ -26,6 +26,6 @@ class ClientConfigurationController {
 
     @GetMapping
     public String getProperty() {
-        return mySqlProperties.getUsername();
+        return mySqlProperties.getUsername() + " - " + mySqlProperties.getPassword();
     }
 }
