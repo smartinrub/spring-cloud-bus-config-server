@@ -1,10 +1,8 @@
-#keytool -genkeypair -alias sergioKeyStore -keyalg RSA \
-#  -dname "CN=Web Server,OU=Unit,O=Organization,L=City,S=State,C=US" \
-#  -keystore server.jks -storepass password123
-# Encrypt: curl localhost:8888/encrypt -d mysecret
 #encrypt:
 #  key-store:
 #    # Asymmetric key
 #    location: classpath:keys/server.jks
 #    password: ${ENCRYPT_KEY}
 #    alias: sergioKeyStore
+encrypt:
+  key: ${ENCRYPT_KEY}
