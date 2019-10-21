@@ -8,3 +8,9 @@ encrypt:
     location: classpath:keys/server.jks
     password: password123
     alias: sergioKeyStore
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: true
