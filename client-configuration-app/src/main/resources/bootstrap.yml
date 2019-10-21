@@ -5,8 +5,10 @@ spring:
     config:
       uri: http://localhost:8888
       profile: development
+encrypt:
+  key: secret
 #encrypt:
 #  key-store:
 #    location: classpath:keys/server.jks
-#    password: password123
+#    password: ${ENCRYPT_KEY}
 #    alias: sergioKeyStore
