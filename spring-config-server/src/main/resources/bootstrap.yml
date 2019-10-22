@@ -1,8 +1,2 @@
-#encrypt:
-#  key-store:
-#    # Asymmetric key
-#    location: classpath:keys/server.jks
-#    password: ${ENCRYPT_KEY}
-#    alias: sergioKeyStore
 encrypt:
   key: mykey
