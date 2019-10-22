@@ -3,4 +3,4 @@ mysql:
     url: 'jdbc:mysql://localhost:3306/db_example'
     username: devuser
 #    password: '{cipher}AQCYo7+iAo64vIWjmhwbTEQzDhKHy7NPpNjTJim30g20FKK964+/Xgxohrsz4XtrRmVG+wnSwbKSh1ALEonQ/a2zslsTIPCFsrwT9Hamo1sMJgvuNjOYGped8rbjvyNGmutR/cVU6D5Keye+fOGZKGLeG6OeL0JPj4YXjbThR8xd25AeFhG4YUaPuxQ2FAacXgjtmY0zB5DyvgN5wavGOnJrY6E1cwcy+8tuCBvBNZF/5CumDmJFY/Jffis2I/QunImw2WeJCY9OYCtLP+Ly47MpmwqIYcuQ6OUlswDF6rGVzAOEX4ScemIWo/56glMxfhn3QnSeYyLMyLdMDly9G06AiajbJtdATLPIHCc4X8DfXG7qJLrzHK11A39wZRBW2jw='
-    password: '{cipher}67d1b243649ed202914bbed1a006bae4916b62350e1c7721ed0d5880c802f284'
+    password: '{cipher}63ebef607339ca6151e50a87fe4cd46af28889b87a1f142c22658770590c8834'

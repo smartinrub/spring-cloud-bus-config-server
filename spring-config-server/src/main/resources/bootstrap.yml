@@ -5,4 +5,4 @@
 #    password: ${ENCRYPT_KEY}
 #    alias: sergioKeyStore
 encrypt:
-  key: ${ENCRYPT_KEY}
+  key: asdfadf
