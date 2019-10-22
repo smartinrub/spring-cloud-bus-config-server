@@ -1,2 +1,2 @@
 encrypt:
-  key: mykey
+  key: ${ENCRYPT_KEY}
