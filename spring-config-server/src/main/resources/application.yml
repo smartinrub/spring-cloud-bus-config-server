@@ -6,4 +6,3 @@ spring:
       server:
         git:
           uri: https://github.com/smartinrub/spring-centralized-configuration.git
-          force-pull: true
