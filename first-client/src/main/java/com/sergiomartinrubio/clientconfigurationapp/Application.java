@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableConfigurationProperties(value = MySqlProperties.class)
-public class ClientConfigurationAppApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ClientConfigurationAppApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
 
