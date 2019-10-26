@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sergiomartinrubio</groupId>
-    <artifactId>client-configuration-app</artifactId>
+    <artifactId>first-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>client-configuration-app</name>
+    <name>first-client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -31,6 +31,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
