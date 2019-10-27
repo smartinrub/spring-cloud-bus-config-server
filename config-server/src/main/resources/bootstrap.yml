@@ -1,10 +1,11 @@
 # Bug: https://github.com/spring-cloud/spring-cloud-config/issues/1490
+# https://stackoverflow.com/questions/55727657/refreshlistener-doesnt-refreshes-key-after-monitor-config-server-bus-kafka
 encrypt:
   key: mykey
   fail-on-error: false
 spring:
   application:
-    name: configserver
+    name: config-server
   cloud:
     config:
       server:

@@ -9,3 +9,4 @@ spring:
           search-paths: config-properties
     bus:
       enabled: true
+      id: config-server
