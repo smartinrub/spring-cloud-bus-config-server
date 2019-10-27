@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/smartinrub/spring-centralized-configuration.git
-#          search-paths: config-properties
+          search-paths: config-properties
     bus:
       enabled: true
