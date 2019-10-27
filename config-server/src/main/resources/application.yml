@@ -9,4 +9,3 @@ spring:
           search-paths: config-properties
     bus:
       enabled: true
-debug: true
