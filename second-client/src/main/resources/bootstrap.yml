@@ -4,4 +4,6 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
-      profile: development
+#      profile: development
+  profiles:
+    active: development
