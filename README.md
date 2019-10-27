@@ -1,5 +1,5 @@
 # spring-centralized-configuration
-![alt text](https://github.com/smartinrub/spring-centralized-configuration/blob/master/spring-cloud-config-server.png)
+![alt text](https://github.com/smartinrub/spring-centralized-configuration/blob/master/spring_cloud_config_server.png)
 
 # Getting Started
 ## RabbitMQ
