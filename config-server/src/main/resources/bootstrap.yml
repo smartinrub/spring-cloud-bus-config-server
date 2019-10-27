@@ -1,7 +1,10 @@
 # Bug: https://github.com/spring-cloud/spring-cloud-config/issues/1490
 encrypt:
   key: mykey
+  fail-on-error: false
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
