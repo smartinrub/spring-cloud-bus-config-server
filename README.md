@@ -1,4 +1,4 @@
-# spring-centralized-configuration
+# spring-cloud-bus-config-server
 ![alt text](https://github.com/smartinrub/spring-centralized-configuration/blob/master/spring_cloud_config_server.png)
 
 # Getting Started
