@@ -1,6 +1,6 @@
 spring:
   application:
-    name: second-client
+    name: secondclient
   cloud:
     config:
       uri: http://localhost:8888

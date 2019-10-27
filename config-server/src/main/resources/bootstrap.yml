@@ -4,7 +4,7 @@ encrypt:
   fail-on-error: false
 spring:
   application:
-    name: config-server
+    name: configserver
   cloud:
     config:
       server:
