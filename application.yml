@@ -1,7 +1,7 @@
 # Shared configuration among all services
 spring:
   rabbitmq:
-    host: localhost2
+    host: localhost
     port: 5672
     username: guest
     password: guest
