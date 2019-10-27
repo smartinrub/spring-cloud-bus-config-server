@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/client-configuration-app/pom.xml" />
+        <option value="$PROJECT_DIR$/second-client/pom.xml" />
       </list>
     </option>
   </component>

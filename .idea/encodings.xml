@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/first-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/second-client" charset="UTF-8" />
   </component>
 </project>

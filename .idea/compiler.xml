@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-centralized-configuration" />
         <module name="first-client" />
+        <module name="second-client" />
         <module name="config-server" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="first-client" options="-parameters" />
+      <module name="second-client" options="-parameters" />
     </option>
   </component>
 </project>
