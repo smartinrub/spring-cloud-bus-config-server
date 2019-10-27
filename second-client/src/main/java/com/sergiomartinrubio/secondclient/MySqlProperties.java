@@ -10,6 +10,5 @@ public class MySqlProperties {
     private String uri;
     private String username;
     private String password;
-    private String another;
 
 }
