@@ -2,7 +2,7 @@
 # https://stackoverflow.com/questions/55727657/refreshlistener-doesnt-refreshes-key-after-monitor-config-server-bus-kafka
 # https://github.com/spring-cloud/spring-cloud-bus/issues/124#issuecomment-441299536
 encrypt:
-  key: mykey
+  key: ${ENCRYPT_KEY}
   fail-on-error: false
 spring:
   application:

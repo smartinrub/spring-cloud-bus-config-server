@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "mysql.properties")
 public class MySqlProperties {
 
-    private String uri;
+    private String url;
     private String username;
     private String password;
 
