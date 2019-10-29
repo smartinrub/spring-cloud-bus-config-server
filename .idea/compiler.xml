@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="first-client" />
         <module name="second-client" />
+        <module name="first-client" />
         <module name="config-server" />
         <module name="spring-cloud-bus-config-server" />
       </profile>
