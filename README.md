@@ -1,6 +1,10 @@
 # spring-cloud-bus-config-server
 ![alt text](https://github.com/smartinrub/spring-centralized-configuration/blob/master/spring_cloud_config_server.png)
 
+With webhook
+
+![alt text](https://github.com/smartinrub/spring-centralized-configuration/blob/master/spring_cloud_config_server_webhook.png)
+
 # Getting Started
 ## RabbitMQ
 
